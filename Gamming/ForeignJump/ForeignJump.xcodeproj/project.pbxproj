@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		970800241EBF5697009655A5 /* asset.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 970800231EBF5697009655A5 /* asset.xcassets */; };
 		D2205DFA17C2523600594EE4 /* Sounds in Resources */ = {isa = PBXBuildFile; fileRef = D2205DF917C2523600594EE4 /* Sounds */; };
 		D222790717B921D900421B00 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D222790617B921D900421B00 /* QuartzCore.framework */; };
 		D222790917B921D900421B00 /* OpenGLES.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D222790817B921D900421B00 /* OpenGLES.framework */; };
@@ -17,16 +18,6 @@
 		D222791317B921D900421B00 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D222791217B921D900421B00 /* Foundation.framework */; };
 		D222791517B921D900421B00 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D222791417B921D900421B00 /* CoreGraphics.framework */; };
 		D222791717B921D900421B00 /* CoreText.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D222791617B921D900421B00 /* CoreText.framework */; };
-		D222791D17B921D900421B00 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = D222791C17B921D900421B00 /* Default.png */; };
-		D222791F17B921D900421B00 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = D222791E17B921D900421B00 /* Default@2x.png */; };
-		D222792117B921D900421B00 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = D222792017B921D900421B00 /* Default-568h@2x.png */; };
-		D222792317B921D900421B00 /* Default-Landscape~ipad.png in Resources */ = {isa = PBXBuildFile; fileRef = D222792217B921D900421B00 /* Default-Landscape~ipad.png */; };
-		D222792517B921D900421B00 /* Icon-72.png in Resources */ = {isa = PBXBuildFile; fileRef = D222792417B921D900421B00 /* Icon-72.png */; };
-		D222792717B921D900421B00 /* Icon-Small-50.png in Resources */ = {isa = PBXBuildFile; fileRef = D222792617B921D900421B00 /* Icon-Small-50.png */; };
-		D222792917B921D900421B00 /* Icon-Small.png in Resources */ = {isa = PBXBuildFile; fileRef = D222792817B921D900421B00 /* Icon-Small.png */; };
-		D222792B17B921D900421B00 /* Icon-Small@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = D222792A17B921D900421B00 /* Icon-Small@2x.png */; };
-		D222792D17B921D900421B00 /* Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = D222792C17B921D900421B00 /* Icon.png */; };
-		D222792F17B921D900421B00 /* Icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = D222792E17B921D900421B00 /* Icon@2x.png */; };
 		D222793217B921D900421B00 /* iTunesArtwork in Resources */ = {isa = PBXBuildFile; fileRef = D222793117B921D900421B00 /* iTunesArtwork */; };
 		D222793717B921D900421B00 /* CCAction.m in Sources */ = {isa = PBXBuildFile; fileRef = D222793617B921D900421B00 /* CCAction.m */; };
 		D222793A17B921D900421B00 /* CCActionCamera.m in Sources */ = {isa = PBXBuildFile; fileRef = D222793917B921D900421B00 /* CCActionCamera.m */; };
@@ -214,6 +205,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		970800231EBF5697009655A5 /* asset.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = asset.xcassets; sourceTree = "<group>"; };
 		D2205DF917C2523600594EE4 /* Sounds */ = {isa = PBXFileReference; lastKnownFileType = folder; name = Sounds; path = Resources/Sounds; sourceTree = "<group>"; };
 		D222790317B921D900421B00 /* ForeignJump.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ForeignJump.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D222790617B921D900421B00 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
@@ -225,16 +217,6 @@
 		D222791217B921D900421B00 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		D222791417B921D900421B00 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
 		D222791617B921D900421B00 /* CoreText.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreText.framework; path = System/Library/Frameworks/CoreText.framework; sourceTree = SDKROOT; };
-		D222791C17B921D900421B00 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Default.png; path = Resources/Default.png; sourceTree = "<group>"; };
-		D222791E17B921D900421B00 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Default@2x.png"; path = "Resources/Default@2x.png"; sourceTree = "<group>"; };
-		D222792017B921D900421B00 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Default-568h@2x.png"; path = "Resources/Default-568h@2x.png"; sourceTree = "<group>"; };
-		D222792217B921D900421B00 /* Default-Landscape~ipad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Default-Landscape~ipad.png"; path = "Resources/Default-Landscape~ipad.png"; sourceTree = "<group>"; };
-		D222792417B921D900421B00 /* Icon-72.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Icon-72.png"; path = "Resources/Icon-72.png"; sourceTree = "<group>"; };
-		D222792617B921D900421B00 /* Icon-Small-50.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Icon-Small-50.png"; path = "Resources/Icon-Small-50.png"; sourceTree = "<group>"; };
-		D222792817B921D900421B00 /* Icon-Small.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Icon-Small.png"; path = "Resources/Icon-Small.png"; sourceTree = "<group>"; };
-		D222792A17B921D900421B00 /* Icon-Small@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Icon-Small@2x.png"; path = "Resources/Icon-Small@2x.png"; sourceTree = "<group>"; };
-		D222792C17B921D900421B00 /* Icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Icon.png; path = Resources/Icon.png; sourceTree = "<group>"; };
-		D222792E17B921D900421B00 /* Icon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Icon@2x.png"; path = "Resources/Icon@2x.png"; sourceTree = "<group>"; };
 		D222793017B921D900421B00 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = Info.plist; path = Resources/Info.plist; sourceTree = "<group>"; };
 		D222793117B921D900421B00 /* iTunesArtwork */ = {isa = PBXFileReference; lastKnownFileType = file; name = iTunesArtwork; path = Resources/iTunesArtwork; sourceTree = "<group>"; };
 		D222793517B921D900421B00 /* CCAction.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = CCAction.h; path = libs/cocos2d/CCAction.h; sourceTree = "<group>"; };
@@ -658,6 +640,7 @@
 		D22278FA17B921D900421B00 = {
 			isa = PBXGroup;
 			children = (
+				970800231EBF5697009655A5 /* asset.xcassets */,
 				D222791A17B921D900421B00 /* ForeignJump */,
 				D222790517B921D900421B00 /* Frameworks */,
 				D222790417B921D900421B00 /* Products */,
@@ -751,16 +734,6 @@
 				D2E4FF2017C2FF7700241A4D /* Menu */,
 				D2205DF917C2523600594EE4 /* Sounds */,
 				D24F5ADD17BB968E00F312FD /* Particle */,
-				D222791C17B921D900421B00 /* Default.png */,
-				D222791E17B921D900421B00 /* Default@2x.png */,
-				D222792017B921D900421B00 /* Default-568h@2x.png */,
-				D222792217B921D900421B00 /* Default-Landscape~ipad.png */,
-				D222792417B921D900421B00 /* Icon-72.png */,
-				D222792617B921D900421B00 /* Icon-Small-50.png */,
-				D222792817B921D900421B00 /* Icon-Small.png */,
-				D222792A17B921D900421B00 /* Icon-Small@2x.png */,
-				D222792C17B921D900421B00 /* Icon.png */,
-				D222792E17B921D900421B00 /* Icon@2x.png */,
 				D222793017B921D900421B00 /* Info.plist */,
 				D222793117B921D900421B00 /* iTunesArtwork */,
 			);
@@ -1317,7 +1290,8 @@
 				ORGANIZATIONNAME = Epimac;
 				TargetAttributes = {
 					D222790217B921D900421B00 = {
-						DevelopmentTeam = E5L7NC8M9T;
+						DevelopmentTeam = 4BLWLFDFU8;
+						ProvisioningStyle = Automatic;
 						SystemCapabilities = {
 							com.apple.GameCenter = {
 								enabled = 1;
@@ -1348,24 +1322,15 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D222792D17B921D900421B00 /* Icon.png in Resources */,
 				D2227A8B17B921DA00421B00 /* ChangeLog in Resources */,
-				D222791F17B921D900421B00 /* Default@2x.png in Resources */,
-				D222792917B921D900421B00 /* Icon-Small.png in Resources */,
 				D2EC7FF717CBC58B004D58E5 /* HUD in Resources */,
-				D222792517B921D900421B00 /* Icon-72.png in Resources */,
-				D222791D17B921D900421B00 /* Default.png in Resources */,
-				D222792717B921D900421B00 /* Icon-Small-50.png in Resources */,
 				D2EC7FF817CBC58B004D58E5 /* Perso in Resources */,
 				D2EC7FFA17CBF184004D58E5 /* Map in Resources */,
+				970800241EBF5697009655A5 /* asset.xcassets in Resources */,
 				D222793217B921D900421B00 /* iTunesArtwork in Resources */,
 				D2E4FF2117C2FF7700241A4D /* Menu in Resources */,
-				D222792B17B921D900421B00 /* Icon-Small@2x.png in Resources */,
 				D24F5ADE17BB968E00F312FD /* Particle in Resources */,
-				D222792317B921D900421B00 /* Default-Landscape~ipad.png in Resources */,
 				D2205DFA17C2523600594EE4 /* Sounds in Resources */,
-				D222792117B921D900421B00 /* Default-568h@2x.png in Resources */,
-				D222792F17B921D900421B00 /* Icon@2x.png in Resources */,
 				D266A50617D2B06E00AA1E1E /* Loading in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -1602,10 +1567,14 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = YES;
+				ARCHS = "$(ARCHS_STANDARD)";
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				CLANG_ENABLE_OBJC_ARC = NO;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				COPY_PHASE_STRIP = NO;
+				DEVELOPMENT_TEAM = 4BLWLFDFU8;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_INPUT_FILETYPE = automatic;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
@@ -1617,14 +1586,16 @@
 				);
 				HEADER_SEARCH_PATHS = "\"ForeignJump/libs/kazmath/include\"";
 				INFOPLIST_FILE = ForeignJump/Resources/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				OTHER_LDFLAGS = (
 					"-lz",
 					"-lsqlite3",
 					"-ObjC",
 				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.gamming.kidgame.100;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE = "35B224D8-2CF9-49AB-A5F3-DC40E45B3704";
+				PROVISIONING_PROFILE = "";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SCAN_ALL_SOURCE_FILES_FOR_INCLUDES = NO;
 				TARGETED_DEVICE_FAMILY = 1;
 				USER_HEADER_SEARCH_PATHS = "\"ForeignJump/libs\"";
@@ -1636,10 +1607,14 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = YES;
+				ARCHS = "$(ARCHS_STANDARD)";
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				CLANG_ENABLE_OBJC_ARC = NO;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				COPY_PHASE_STRIP = YES;
+				DEVELOPMENT_TEAM = 4BLWLFDFU8;
 				GCC_INPUT_FILETYPE = automatic;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = ForeignJump/Prefix.pch;
@@ -1650,14 +1625,16 @@
 				);
 				HEADER_SEARCH_PATHS = "\"ForeignJump/libs/kazmath/include\"";
 				INFOPLIST_FILE = ForeignJump/Resources/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				OTHER_LDFLAGS = (
 					"-lz",
 					"-lsqlite3",
 					"-ObjC",
 				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.gamming.kidgame.100;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE = "35B224D8-2CF9-49AB-A5F3-DC40E45B3704";
+				PROVISIONING_PROFILE = "";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SCAN_ALL_SOURCE_FILES_FOR_INCLUDES = NO;
 				TARGETED_DEVICE_FAMILY = 1;
 				USER_HEADER_SEARCH_PATHS = "\"ForeignJump/libs\"";
